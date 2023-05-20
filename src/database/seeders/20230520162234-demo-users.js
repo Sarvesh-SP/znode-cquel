@@ -22,6 +22,8 @@ module.exports = {
           email: 'john@gmail.com',
           password: 'defaultpassword',
           role: 'user',
+          createdAt: new Date(),
+          updatedAt: new Date(),
         },
         {
           id: uuidv4(),
@@ -29,6 +31,8 @@ module.exports = {
           email: 'anon@gmail.com',
           password: 'defaultpassword',
           role: 'admin',
+          createdAt: new Date(),
+          updatedAt: new Date(),
         },
       ],
       {}
