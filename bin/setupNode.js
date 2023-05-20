@@ -82,7 +82,7 @@ async function setup() {
 
     console.log('We suggest that you start by typing:');
     console.log(`    cd ${folderName}`);
-    console.log('    npm run dev');
+    console.log('    for further steps, refer : https://github.com/Sarvesh-SP/znode-cquel/blob/master/README.md');
     console.log();
   } catch (error) {
     console.log(error);
