@@ -1,0 +1,4 @@
+node_modules
+bin
+/src/utils/autoRequireFile.js
+/src/models/index.js
