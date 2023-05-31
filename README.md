@@ -25,6 +25,8 @@ npx znode-cquel <project-name>
   ```
 - Run the Script
   ```bash
+  npm i -g sequelize-cli
+  sequelize db:create
   npm run setup
   npm run dev
   ```
