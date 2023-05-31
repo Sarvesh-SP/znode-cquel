@@ -28,3 +28,11 @@ npx znode-cquel <project-name>
   npm run setup
   npm run dev
   ```
+- Generate a Schema
+  ```
+  sequelize model:generate --name <schema_name> --attributes <key>:<data_type>
+  ```
+   - example
+      ```
+      sequelize model:generate --name User --attribute name:string,age:number,phone:number
+      ```
